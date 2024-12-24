@@ -1,0 +1,21 @@
+<!--pages/personal/personal.wxml-->
+<view class='personal'>
+  <view class='per-tlt'>
+    <view class='pic'>
+      <image src='/images/hero.png'></image>
+    </view>
+    <view class='name'>美少女战士</view>
+  </view>
+  <view class='per-con'>
+    <view class='item' bindtap='go_adress'>
+      <image src='/images/my_adress.png' class='icon'></image>
+      <text>我的收货地址</text>
+      <image src='/images/right_cion.png' class='icon row'></image>
+    </view>
+    <view class='item' bindtap='go_discount'>
+      <image src='/images/my_quan.png' class='icon'></image>
+      <text>我的优惠券</text>
+      <image src='/images/right_cion.png' class='icon row'></image>
+    </view>
+  </view>
+</view>
